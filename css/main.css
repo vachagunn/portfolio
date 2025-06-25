@@ -1,4 +1,9 @@
-@import "/base/reset.css";
+@import '/base/reset.css';
+
+/* Fonts */
+@import '/fonts/chillax/css/chillax.css';
+@import '/fonts/gambetta/css/gambetta.css';
+@import '/fonts/satoshi/css/satoshi.css';
 
 :root {
     /* Fonts */
@@ -24,4 +29,19 @@
 body {
     background-color: #0E0E0E;
     color: #DAC5A7;
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-size: 48px;
+}
+
+h2 {
+    font-family: var(--second-family);
+    font-size: 38px;
+}
+
+h3 {
+    font-family: Gambetta;
+    font-size: 38px;
 }
